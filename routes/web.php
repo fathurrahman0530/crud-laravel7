@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('dashboard.index');
 });
+
+Route::get('crud', 'CrudController@index');
+Route::get('insert', 'CrudController@insert');
