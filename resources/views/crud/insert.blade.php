@@ -7,6 +7,6 @@
         <h3>Insert Data</h3>
     </div>
     <div class="page-content">
-
+        
     </div>
 @endsection
