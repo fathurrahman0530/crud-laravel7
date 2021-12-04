@@ -7,13 +7,13 @@
         <h3>Show Data</h3>
     </div>
     <div class="page-content">
-        <a href="" class="btn btn-primary">Tambah Data</a>
+        <a href="crud/insert" class="btn btn-primary">Tambah Data</a>
 
         <table class="table table-hover">
             <thead>
                 <tr>
-                    <th></th>
-                    <th></th>
+                    <th>No</th>
+                    <th>Code Barang</th>
                     <th></th>
                     <th></th>
                 </tr>
