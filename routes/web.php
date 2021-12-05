@@ -17,5 +17,6 @@ Route::get('/', function () {
     return view('dashboard.index');
 });
 
-Route::get('crud', 'CrudController@index');
+Route::get('crud', 'CrudController@index')->name();
+Route::get('crud/insert', 'CrudController@insert');
 Route::get('crud/insert', 'CrudController@insert');
