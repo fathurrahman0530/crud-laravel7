@@ -7,7 +7,7 @@
     <h3>Show Data</h3>
 </div>
 <div class="page-content">
-    <a href="crud/insert" class="btn btn-primary">Tambah Data</a>
+    <a href="{{ route('crud.insert') }}" class="btn btn-primary">Tambah Data</a>
 
     <table class="table table-hover">
         <thead>

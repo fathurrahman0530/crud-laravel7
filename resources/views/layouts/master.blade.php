@@ -1,13 +1,17 @@
-@include('layouts.header')
+@extends('index')
 
+@section('header')
+    @include('layouts.header')
+@endsection
+
+@section('sidebar')
     @include('layouts.sidebar')
+@endsection
 
+@section('footer')
+    @include('layouts.footer')
+@endsection
 
-        @yield('content')
-
-        @include('layouts.footer')
-
-@include('layouts.javascript')
-</body>
-
-</html>
+@section('javascript')
+    @include('layouts.javascript')
+@endsection

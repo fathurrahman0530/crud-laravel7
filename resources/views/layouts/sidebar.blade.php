@@ -3,7 +3,9 @@
         <div class="sidebar-header">
             <div class="d-flex justify-content-between">
                 <div class="logo">
-                    <a href="/"><h4>CRUD Laravel</h4></a>
+                    <a href="/">
+                        <h4>CRUD Laravel</h4>
+                    </a>
                 </div>
                 <div class="toggler">
                     <a href="#" class="sidebar-hide d-xl-none d-block"><i class="bi bi-x bi-middle"></i></a>
@@ -22,7 +24,7 @@
                 </li>
 
                 <li class="sidebar-item">
-                    <a href="/crud" class='sidebar-link'>
+                    <a href="{{ route('crud') }}" class='sidebar-link'>
                         <i class="fas fa-file"></i>
                         <span>CRUD</span>
                     </a>

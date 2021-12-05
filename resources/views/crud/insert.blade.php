@@ -15,7 +15,7 @@
                         <div class="card-content">
                             <div class="card-body">
                                 <form class="form form-horizontal" enctype="multipart/form-data"
-                                    action="app/system/mobil/add-mobil.php" method="POST">
+                                    action="" method="POST">
                                     <div class="form-body">
                                         <div class="row">
                                             <div class="col-md-4">
