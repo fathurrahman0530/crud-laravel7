@@ -18,3 +18,6 @@
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     <link rel="shortcut icon" href="{{ asset('images/favicon.svg') }}" type="image/x-icon">
 </head>
+
+<body>
+    <div id="app">

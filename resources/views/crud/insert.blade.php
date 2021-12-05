@@ -48,7 +48,7 @@
                                             <div class="col-sm-12 d-flex justify-content-end">
                                                 <button type="submit" name="addMobil"
                                                     class="btn btn-primary me-1 mb-1">Save</button>
-                                                <a href="media.php?pages=daftar-mobil"
+                                                <a href="/crud"
                                                     class="btn btn-light-secondary me-1 mb-1">Batal</a>
                                             </div>
                                         </div>
